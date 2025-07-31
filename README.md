@@ -1,6 +1,8 @@
 # exam_browser
 
-A new Flutter project.
+Simple exam browser built with Flutter. The app allows students to enter a URL
+for their exam and opens it in a full screen WebView. The device is locked into
+the application until the exit button in the top bar is pressed.
 
 ## Getting Started
 
