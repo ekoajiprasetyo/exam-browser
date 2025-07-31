@@ -4,6 +4,9 @@ Simple exam browser built with Flutter. The app allows students to enter a URL
 for their exam and opens it in a full screen WebView. The device is locked into
 the application until the exit button in the top bar is pressed.
 
+The Android build uses NDK version `27.0.12077973` as required by the
+`webview_flutter_android` plugin.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

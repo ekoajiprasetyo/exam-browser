@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.exam_browser"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // webview_flutter_android requires NDK 27
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
